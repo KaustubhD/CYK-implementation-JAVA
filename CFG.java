@@ -23,7 +23,7 @@ public class CFG {
     static String check(String a){
         String to_ret = "";
         int count = 0;
-        for(int i = 0; i < np; i++);
+        for(int i = 0; i < np; i++) {
             for(count = 0; count < grammer[i].length; count++){
                 if(grammer[i][count].equals(a)){
                     to_ret += grammer[i][0];
